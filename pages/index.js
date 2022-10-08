@@ -5,7 +5,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-export default function Home() {
+export default function Home({contentItems}) {
   return (
     <div className="container my-5 py-5">
       <MenuBar />
@@ -16,7 +16,21 @@ export default function Home() {
       <Link href="/services/content">
         <a className="btn btn-outline-primary">&raquo; Content Page</a>
       </Link>
-      <ServicesOverview />
+      <div className="album py-2" id="services">
+        <div className="container">
+          <div className="row mt-5">
+            <div className="col-12 text-center mt-5">
+              <h2>Our Services</h2>
+            </div>
+          </div>
+
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+            {contentItems.map((contentItem, index) => (
+              <ServicesOverview key={index} contentItem={contentItem}/>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -3,8 +3,8 @@ author : "Profireiniger Estera GmbH"
 categories : ["services", "windows", "blinds"]
 date: "2022-10-08T20:05:00Z"
 description : "We clean your windows with and without cleaning their frames and also make all other glass surfaces shine with care and caution."
-image: "photos/woman-cleaning-a-window.jpg"
-images: ["photos/woman-cleaning-a-window.jpg"]
+image: "photos/headers/cleaning-windows.jpg"
+images: ["photos/cleaning-a-window.jpg"]
 slug : "window-cleaning"
 summary : "We clean your windows with and without cleaning their frames and also make all other glass surfaces shine with care and caution."
 tags : ["services", "window cleaning"]
