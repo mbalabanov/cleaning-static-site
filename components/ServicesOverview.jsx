@@ -1,5 +1,4 @@
 export default function ServicesOverview({ contentItem }) {
-  console.log(contentItem);
   return (
     <div className="col">
       <div className="card shadow-sm">
@@ -15,7 +14,10 @@ export default function ServicesOverview({ contentItem }) {
           <p className="card-text">{contentItem.frontmatter.summary}</p>
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-              <a className="btn btn-sm btn-primary" href={`/services/${contentItem.slug}`}>
+              <a
+                className="btn btn-sm btn-primary"
+                href={`/services/${contentItem.slug}`}
+              >
                 Find out more
               </a>
             </div>

@@ -1,12 +1,14 @@
 import Link from 'next/link'
 import MenuBar from '../components/MenuBar'
 import ServicesOverview from '../components/ServicesOverview'
+import Footer from '../components/Footer'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
 export default function Home({contentItems}) {
   return (
+    <>
     <div className="container my-5 py-5">
       <MenuBar />
       <h1>Index Page</h1>
@@ -32,6 +34,8 @@ export default function Home({contentItems}) {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   )
 }
 
@@ -58,8 +62,6 @@ export async function getStaticProps() {
       return contentItem && contentItem
     }
   )
-
-  const jsonString = JSON.stringify(contentItems)
 
   return {
     props: {
