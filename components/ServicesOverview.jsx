@@ -27,7 +27,7 @@ export default function ServicesOverview() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <a className="btn btn-sm btn-primary" href="/content">
+                    <a className="btn btn-sm btn-primary" href="/services/content">
                       More
                     </a>
                   </div>

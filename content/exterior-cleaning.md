@@ -1,15 +1,15 @@
 ---
-author: "Profireiniger Estera GmbH"
-categories: ["services", "facade", "exterior"]
-date: "2022-10-08T15:55:00Z"
-description: "We ensure that your building makes a dazzling impression from the outside! We clean your facade and outdoor facilities such as parking lots, sidewalks and courtyards."
-image: "photos/facade.jpg"
-images: ["photos/facade.jpg"]
-slug: "exterior-cleaning"
-summary: "We ensure that your building makes a dazzling impression from the outside! We clean your facade and outdoor facilities such as parking lots, sidewalks and courtyards."
-tags: ["services", "exterior cleaning", "facade"]
-title: "Exterior Cleaning"
-draft: false
+author : "Profireiniger Estera GmbH"
+categories : ["services", "facade", "exterior"]
+date : "2022-10-08T15:55:00Z"
+description : "We ensure that your building makes a dazzling impression from the outside! We clean your facade and outdoor facilities such as parking lots, sidewalks and courtyards."
+image : "photos/facade.jpg"
+images : ["photos/facade.jpg"]
+slug : "exterior-cleaning"
+summary : "We ensure that your building makes a dazzling impression from the outside! We clean your facade and outdoor facilities such as parking lots, sidewalks and courtyards."
+tags : ["services", "exterior cleaning", "facade"]
+title : "Exterior Cleaning"
+draft : false
 ---
 
 We ensure that your building makes a dazzling impression from the outside! We clean your facade and outdoor facilities such as parking lots, sidewalks and courtyards.
