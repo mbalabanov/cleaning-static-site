@@ -4,7 +4,7 @@ export default function MenuBar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-light border-bottom">
       <div className="container-fluid">
-        <a className="navbar-brand p-2" href="index.html">
+        <a className="navbar-brand p-2" href="/">
           <img
             src="/logos/profireiniger-text-logo.svg"
             alt="Profireiniger"

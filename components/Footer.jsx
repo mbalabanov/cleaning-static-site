@@ -10,6 +10,7 @@ export default function ImageHeader() {
           />
         </p>
         <p className="m-0 text-center">&copy; Profireiniger - Estera GmbH</p>
+        <p className="m-0 text-center">Designed by <a href="https://marincomics.com" className="link-light" target="_blank">MarinComics</a></p>
       </div>
     </footer>
   );
