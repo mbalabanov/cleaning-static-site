@@ -1,2 +1,0 @@
-## Office Cleaning
-We turn your offices into a spotless and  well-kept workplace. We clean all types of office space - from medium-sized companies to office floors of large companies, as well as administrative and school offices.

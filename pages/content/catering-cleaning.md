@@ -1,2 +1,0 @@
-## Catering Cleaning
-As a restaurateur, you not only care about the well-being of your guests, you also pay attention to hygiene in your kitchen, seating area and food stores. We help you ensure hygene and safety.

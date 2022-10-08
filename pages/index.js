@@ -1,7 +1,9 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import MenuBar from '../components/MenuBar'
 import ServicesOverview from '../components/ServicesOverview'
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
 
 export default function Home() {
   return (
@@ -17,4 +19,37 @@ export default function Home() {
       <ServicesOverview />
     </div>
   )
+}
+
+export async function getStaticProps() {
+  const files = fs.readdirSync(path.join('content'))
+
+  const tempContent = files.map((filename) => {
+    const slug = filename.replace('.md', '')
+    const markdownWithMeta = fs.readFileSync(
+      path.join('content', filename),
+      'utf-8'
+    )
+    const { data: frontmatter } = matter(markdownWithMeta)
+    if (frontmatter.draft === false) {
+      return {
+        slug,
+        frontmatter,
+      }
+    } else { return null }
+  })
+
+  const contentItems = tempContent.filter(
+    contentItem => {
+      return contentItem && contentItem
+    }
+  )
+
+  const jsonString = JSON.stringify(contentItems)
+
+  return {
+    props: {
+      contentItems: contentItems
+    }
+  }
 }
