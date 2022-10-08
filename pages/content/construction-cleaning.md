@@ -1,0 +1,2 @@
+## Construction Cleaning
+As a flexible service provider, we are able to quickly bring order to the construction site. Our service also includes fine construction cleaning, general construction cleaning, the protection of built-in parts and the establishment of construction safety.

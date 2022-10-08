@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import MenuBar from './components/MenuBar'
+import MenuBar from '../../components/MenuBar'
 
 function Content() {
     return (
@@ -13,6 +13,7 @@ function Content() {
                     </Link>
                 </div>
             </div>
+
         </main>
     )
 }
