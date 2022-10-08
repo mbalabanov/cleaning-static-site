@@ -4,11 +4,11 @@ export default function MenuBar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-light border-bottom">
       <div className="container-fluid">
-        <a className="navbar-brand p-2 mx-5" href="index.html">
+        <a className="navbar-brand p-2" href="index.html">
           <img
             src="/logos/profireiniger-text-logo.svg"
             alt="Profireiniger"
-            className="img-fluid my-1"
+            className="img-fluid"
             width="200px"
           />
         </a>
