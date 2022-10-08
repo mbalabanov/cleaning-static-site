@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import MenuBar from '../components/MenuBar'
+import HeroCarousel from '../components/HeroCarousel'
 import ServicesOverview from '../components/ServicesOverview'
+import LocationMap from '../components/LocationMap'
+import LegalNotice from '../components/LegalNotice'
 import Footer from '../components/Footer'
 import fs from 'fs'
 import path from 'path'
@@ -11,6 +14,7 @@ export default function Home({contentItems}) {
     <>
     <div className="container my-5 py-5">
       <MenuBar />
+      <HeroCarousel />
       <h1>Index Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ducimus commodi corporis id facilis ad, iure ipsa repellat fugit itaque illo animi. Obcaecati quos eius impedit error qui quibusdam quis.
@@ -34,6 +38,8 @@ export default function Home({contentItems}) {
         </div>
       </div>
     </div>
+    <LocationMap/>
+    <LegalNotice/>
     <Footer />
     </>
   )

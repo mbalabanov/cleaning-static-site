@@ -20,8 +20,8 @@ function Content() {
                 </div>
                 <ImageHeader />
             </div>
-            <div class="container">
-                <div class="row mt-3">
+            <div className="container">
+                <div className="row mt-3">
                     <ServiceDetails />
                     <SideBar />
                 </div>

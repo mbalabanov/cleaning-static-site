@@ -1,6 +1,6 @@
 export default function ServiceDetails() {
   return (
-    <main class="col-md-8 px-4">
+    <main className="col-md-8 px-4">
       <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

@@ -51,16 +51,11 @@ export default function MenuBar() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li>
-                  <Link href="/content">
-                    <a className="dropdown-item">Apartment Cleaning</a>
-                  </Link>
-                </li>
               </ul>
             </li>
             <li className="nav-item">
-              <Link href="/">
-                <a className="nav-link">Price Calculator</a>
+              <Link href="/#legal-notice">
+                <a className="nav-link">Legal Notice</a>
               </Link>
             </li>
           </ul>
