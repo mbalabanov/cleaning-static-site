@@ -35,21 +35,15 @@ Images are stored in the public folder in **logos** and **photos**.
 ## Installing, Running and Building the Site
 
 ### Installing the Application
-You  will need to first install [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) to install the application. Once you have installed their latest versions, you can install the app by running:
-
-``npm install``
+You  will need to first install [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) to install the application. Once you have installed their latest versions, you can install the app by running: ``npm install``
 
 ### Running the Site Locally
-The site can be previewed by running:
-
-``npm run dev``
+The site can be previewed by running: ``npm run dev``
 
 This will run the site on `http://localhost:3000`
 
 ### Building the Static Site
-To build the static site, run:
-
-``npm start``
+To build the static site, run: ``npm start``
 
 This will generate the static site in the directory `build`. Upload the files to a server of your choice.
 
