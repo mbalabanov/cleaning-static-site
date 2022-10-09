@@ -1,6 +1,7 @@
 # Cleaning Company Website using Next JS as a Static Site Generator
 
 This is the English version of the brochure website for the cleaning company _Profireiniger Estera GmbH_ in Vienna. It uses Next.js as a static site generator to generate the website content from Markdown files.
+
 **At the time of writing, this project is still a work-in-progress.**
 
 
