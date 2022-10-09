@@ -46,7 +46,7 @@ This will run the site on `http://localhost:3000`
 
 ### Building the Static Site
 To build the static site, run:
-`npm start`
+``npm start``
 
 This will generate the static site in the directory `build`. Upload the files to a server of your choice.
 
@@ -70,7 +70,8 @@ The **photos, graphics and logo** were designed, cropped, touched up and/or crea
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/) - Logo design.
 
 ## Special Thanks
-This project is based on the work of [Rajdeep Singh](https://medium.com/@officialrajdeepsingh)
+This project is based on the work of [Rajdeep Singh](https://medium.com/@officialrajdeepsingh).
+
 His excellent tutorial for building a static blog can be found at: [Build the static blog with Next.js and Markdown](https://medium.com/nextjs/build-the-static-blog-with-next-js-and-markdown-59576c75fbf2)
 Check out his work on React and NextJS.
 
