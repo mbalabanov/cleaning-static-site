@@ -73,5 +73,5 @@ His excellent tutorial for building a static blog can be found at: [Build the st
 Check out his work on React and NextJS.
 
 ## Original Concept
-I made this project for the cleaning company in Vienna, [Profireiniger Esters GmbH](https://profireiniger.at), as part of the frontend developer course at [Boolean.co.uk](https://boolean.co.uk/)
+I made this project for the purveyor of cleaning services in Vienna, [Profireiniger Estera GmbH](https://profireiniger.at), as part of the frontend developer course at [Boolean.co.uk](https://boolean.co.uk/)
 Please find the original concept sketch below:
