@@ -60,13 +60,14 @@ This project uses the following tech stack:
 - [next-seo](https://www.npmjs.com/package/next-seo)
 
 For the translation and editing of the German-language content currently on [profireiniger.at](https://profireiniger.at) the following tools were used:
-- [obsidian.md](https://obsidian.md/)
-- [translate.google.com](https://translate.google.com/)
-- [grammarly.com](https://app.grammarly.com/)
+- [obsidian.md](https://obsidian.md/) - To edit and format the Markdown content.
+- [translate.google.com](https://translate.google.com/) - To translate original text from German to English.
+- [grammarly](https://app.grammarly.com/) - For grammar and spelling.
+- [unsplash](https://unsplash.com) - For stock photos.
 
 The graphics and logo were cropped, touched up and/or created using:
-- [Affinity Photo](https://affinity.serif.com/en-gb/photo/)
-- [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
+- [Affinity Photo](https://affinity.serif.com/en-gb/photo/) - Photo editing.
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) - Logo design.
 
 ## Special Thanks
 This project is based on the work of [Rajdeep Singh](https://medium.com/@officialrajdeepsingh)
