@@ -50,8 +50,8 @@ To build the static site, run:
 
 This will generate the static site in the directory `build`. Upload the files to a server of your choice.
 
-## Tech Stack
-This project uses the following tech stack:
+## Tech Stack and Tools
+This project uses the following **tech stack:**
 - [next.js](https://nextjs.org/)
 - [boostrap](https://getbootstrap.com/)
 - [gray-matter](https://www.npmjs.com/package/gray-matter)
@@ -59,13 +59,13 @@ This project uses the following tech stack:
 - [next-sitemap](https://www.npmjs.com/package/next-sitemap)
 - [next-seo](https://www.npmjs.com/package/next-seo)
 
-For the translation and editing of the German-language content currently on [profireiniger.at](https://profireiniger.at) the following tools were used:
+For the **translation and editing** of the German-language content currently on [profireiniger.at](https://profireiniger.at) the following tools were used:
 - [obsidian.md](https://obsidian.md/) - To edit and format the Markdown content.
 - [translate.google.com](https://translate.google.com/) - To translate original text from German to English.
 - [grammarly](https://app.grammarly.com/) - For grammar and spelling.
 - [unsplash](https://unsplash.com) - For stock photos.
 
-The graphics and logo were cropped, touched up and/or created using:
+The **photos, graphics and logo** were designed, cropped, touched up and/or created using:
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/) - Photo editing.
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/) - Logo design.
 
