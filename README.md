@@ -39,7 +39,7 @@ You  will need to first install [nodejs](https://nodejs.org/en/) and [npm](https
 
 ### Running the Site Locally
 The site can be previewed by running:
-``nom run dev``
+``npm run dev``
 
 This will run the site on `http://localhost:3000`
 
