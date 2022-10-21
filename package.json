@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
